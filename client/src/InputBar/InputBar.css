@@ -1,0 +1,93 @@
+#outer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#whole-bar {
+    width: 80%;
+    position: relative;
+    height: 20%;
+}
+
+
+#chat-window {
+    width: 80%;
+    height: 60%;
+    overflow-y: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid black;
+}
+
+#input {
+    height: 100px;
+    width: 100%;
+    border-radius: 40px;
+    padding-left: 40px;
+    font-size: 30px;
+}
+
+#button {
+    position: absolute;
+    right: 20px;
+    top: 13px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    background-color: orange;
+    border-radius: 25px;
+    font-size: 40px;
+}
+
+#ai {
+    position: absolute;
+    left: 15px;
+    top: 25px;
+    height: 50px;
+    width: 90px;
+    border-radius: 10px;
+    visibility: hidden;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(27, 21, 128);
+    background-color: rgb(203, 97, 97);
+}
+
+.my-chat {
+    
+    max-width: 80%;
+    background-color: rgb(164, 164, 210); 
+    margin-top: 20px;
+    width: fit-content;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+
+    align-self: flex-start;
+}
+
+.red {
+    color: rgb(171, 79, 79);
+}
+
+.others-chat {
+    max-width: 80%;
+    background-color: rgb(164, 164, 210); 
+    margin-top: 20px;
+    width: fit-content;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+
+    align-self: flex-end;
+}
